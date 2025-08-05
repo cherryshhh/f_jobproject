@@ -203,9 +203,4 @@ if process_button:
     agent = create_tool_calling_agent(llm, [retrieval_chain], prompt)
     response = agent_executor.invoke({"input": ques})
 ```
-&emsp;&emsp;完整的代码已经上传至百度网盘中的`langchain_rag.py`文件中，大家可以扫描下方二维码免费领取
-<center><img src="https://ml2022.oss-cn-hangzhou.aliyuncs.com/img/202506172002839.png" alt="image-20250617200256788" style="zoom:33%;" />
-<center><img src="https://ml2022.oss-cn-hangzhou.aliyuncs.com/img/202506102031014.png" alt="6d9391e440ee8df1466cef1bce40705" style="zoom:50%;" />
-&emsp;&emsp;项目运行效果如下所示：
-from IPython.display import Video
-Video("https://ml2022.oss-cn-hangzhou.aliyuncs.com/LangChain%20RAG.mp4", width=800, height=400)
+&emsp;&emsp;
